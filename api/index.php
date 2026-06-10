@@ -18,7 +18,6 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
     
     <link rel="preload" as="image" href="/images/stig-blomqvist-audi-quattro.jpg"/>
     <link rel="preload" as="image" href="/images/dr-antonini.png"/>
-    <link rel="preload" as="image" href="/images/moringa-matcha.png"/>
     
     <link rel="stylesheet" href="/css/styles.css" />
     
@@ -133,7 +132,7 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">Com os &quot;tubos&quot; desobstruídos e limpos, o sangue volta a fluir num volume massivo e com a pressão original de fábrica, restaurando a dureza, o tamanho e a resistência do membro masculino num espaço de poucos dias.</p>
                     
                     <figure class="my-8">
-                        <img src="/images/moringa-matcha.png" alt="O extrato puro da raiz de Moringa" width="1600" height="900" loading="lazy" class="w-full"/>
+                        <video src="/videos/Blood_becomes_green_202604222016.mp4" autoPlay="" muted="" loop="" playsInline="" class="w-full"></video>
                         <figcaption class="mt-2 text-sm italic text-neutral-600">O extrato puro da raiz de Moringa: o &quot;descarbonizante natural&quot; que atua diretamente sobre as placas de gordura do sistema vascular.</figcaption>
                     </figure>
                     
