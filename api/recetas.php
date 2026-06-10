@@ -122,7 +122,7 @@
                         <p class="mb-2 text-sm uppercase tracking-widest text-neutral-600">Recomendação da Redação</p>
                         <p class="mb-4 text-lg text-neutral-800 font-semibold" style="font-family:'Playfair Display', Georgia, serif">Restaure a performance original e reduza o consumo do seu motor sem gastar centenas de euros numa oficina.</p>
                         
-                        <a href="https://www.amazon.es/s?k=limpeza+injetores+liqui+moly" target="_blank" rel="noopener noreferrer" class="inline-block rounded-md bg-[#0a2a55] px-8 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-[#081f3f] md:text-lg">
+                        <a href="https://www.amazon.com.br/Aditivo-Limpa-Injetor-TREATMENT-unidades/dp/B0G4B9HGQ2/ref=sr_1_8?dib=eyJ2IjoiMSJ9.rY8t42qy2a8xZ4u_4fZjmIfM-fnynv5p4ZagE_0AOckjzoDNrkeIyLhc8PKaJHt67tSUK7hKN84c0DdGGgAcGlS8PmJak9VYCcE8qX8q87uz9XgHxnM58NXJMNa8xTk1iMVdmojhtqdOvxoi6fuNjegr0onz7EypRbcDPEgAWeiUjz19-EpEbeMd7qGLRaiPNG_RpbufKA4GT2qOFLWPh7xICmVVjUhPBxeih0zBw79Y6QHkrpzJtyS2J6XjFWTBdK-djMX2DMPNUdBD7rPJLhS1QaNMTT33F-u-GITzIQI.Tu087M__zlLmblv1rGcreNfEToNk7roZesaK9TxwCsM&amp;dib_tag=se&amp;keywords=limpa+bico+injeto&amp;qid=1781067138&amp;sr=8-8&amp;ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank" rel="noopener noreferrer" class="inline-block rounded-md bg-[#c8102e] px-8 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-[#a40d26] md:text-lg">
                             👉 CLIQUE AQUI PARA VER O KIT PROFISSIONAL DE LIMPEZA DE INJETORES NA AMAZON
                         </a>
                         
