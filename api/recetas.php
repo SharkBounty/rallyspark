@@ -167,10 +167,10 @@
                         <span class="ml-2">© 2026. Todos os direitos reservados.</span>
                     </div>
                     <nav class="flex flex-wrap gap-5">
-                        <a href="#" class="hover:underline">Sobre nós</a>
-                        <a href="#" class="hover:underline">Publicidade</a>
-                        <a href="#" class="hover:underline">Política de Privacidade</a>
-                        <a href="#" class="hover:underline">Termos e Condições</a>
+                        <a href="/sobre-nos" class="hover:underline">Sobre nós</a>
+                        <a href="/publicidade" class="hover:underline">Publicidade</a>
+                        <a href="/politica-de-privacidade" class="hover:underline">Política de Privacidade</a>
+                        <a href="/termos-e-condicoes" class="hover:underline">Termos e Condições</a>
                     </nav>
                 </div>
             </div>
