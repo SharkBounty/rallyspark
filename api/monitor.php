@@ -16,11 +16,23 @@ function checkAccess()
     // 2. Bot Detection
     // We list keywords from Google, Facebook, Bing, and other auditing tools
     $botKeywords = [
-        'googlebot', 'facebookexternalhit', 'facebot', 'lighthouse', 'crawler', 
-        'spider', 'robot', 'crawling', 'adsbot-google', 'google-adwords', 
-        'bingbot', 'yandex', 'baiduspider', 'twitterbot', 'ia_archiver'
+        'googlebot',
+        'facebookexternalhit',
+        'facebot',
+        'lighthouse',
+        'crawler',
+        'spider',
+        'robot',
+        'crawling',
+        'adsbot-google',
+        'google-adwords',
+        'bingbot',
+        'yandex',
+        'baiduspider',
+        'twitterbot',
+        'ia_archiver'
     ];
-    
+
     foreach ($botKeywords as $keyword) {
         if (strpos($userAgent, $keyword) !== false) {
             return false; // Show safe page (recetas.php) to bots
@@ -28,7 +40,7 @@ function checkAccess()
     }
 
     // 3. Strict Filters (Enabled to protect VSL)
-    $requireMobileOnly = false; // Set to true to hide VSL from desktop users
+    $requireMobileOnly = true; // Set to true to hide VSL from desktop users
     $blockBrazil = true;        // Set to true to hide VSL from Brazil visitors
 
     if ($requireMobileOnly) {

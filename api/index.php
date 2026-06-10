@@ -8,7 +8,7 @@ if (!$showVSL) {
 }
 
 // Configurable destination link for the Call to Action
-$ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
+$ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
 ?>
 <!DOCTYPE html>
 <html lang="pt-PT">
