@@ -18,6 +18,7 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
     
     <link rel="preload" as="image" href="/images/stig-blomqvist-audi-quattro.jpg"/>
     <link rel="preload" as="image" href="/images/dr-antonini.png"/>
+    <link rel="preload" as="image" href="/images/moringa-matcha.png"/>
     
     <link rel="stylesheet" href="/css/styles.css" />
     
@@ -121,11 +122,6 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                         <figcaption class="mt-2 text-sm italic text-neutral-600">O princípio é o mesmo: quando os tubos estão entupidos, o fluxo é cortado e a máquina perde a força.</figcaption>
                     </figure>
                     
-                    <figure class="my-8">
-                        <video src="/videos/moringa-matcha.mp4" autoPlay="" muted="" loop="" playsInline="" class="w-full"></video>
-                        <figcaption class="mt-2 text-sm italic text-neutral-600">O extrato puro da raiz de Moringa: o &quot;descarbonizante natural&quot; que atua diretamente sobre as placas de gordura do sistema vascular.</figcaption>
-                    </figure>
-                    
                     <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">O Perigo de &quot;Forçar o Motor&quot;</h3>
                     <p class="mb-5">Quando o carro não desenvolve, o instinto básico do condutor é pisar o acelerador a fundo. Na saúde humana, é exatamente isso que a indústria farmacêutica faz quando lhe vende os famosos comprimidos azuis.</p>
                     <p class="mb-5">Esses químicos forçam artificialmente o seu coração a bombear o sangue contra uma parede de veias entupidas de gordura. Forçar uma máquina desta forma causa um desgaste terrível e pode levar a falhas cardíacas graves.</p>
@@ -135,6 +131,11 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">A resposta definitiva surgiu cruzando os dados urológicos com a revolucionária investigação sobre a regulação genética celular dos cientistas americanos <strong>Victor Ambros e Gary Ruvkun</strong>, que acabam de vencer o <strong>Prémio Nobel da Medicina de 2024</strong>.</p>
                     <p class="mb-5">Apoiada nos mecanismos de como as nossas células funcionam e se reparam, a ciência descobriu que o extrato puro da raiz de uma planta chamada <strong>Moringa</strong> atua no sangue do homem exatamente como um aditivo descarbonizante atua nos injetores do seu carro. Quando ativada corretamente, ela reduz a acidez e dissolve as placas de gordura endurecidas que sufocam o seu sistema vascular pélvico.</p>
                     <p class="mb-5">Com os &quot;tubos&quot; desobstruídos e limpos, o sangue volta a fluir num volume massivo e com a pressão original de fábrica, restaurando a dureza, o tamanho e a resistência do membro masculino num espaço de poucos dias.</p>
+                    
+                    <figure class="my-8">
+                        <img src="/images/moringa-matcha.png" alt="O extrato puro da raiz de Moringa" width="1600" height="900" loading="lazy" class="w-full"/>
+                        <figcaption class="mt-2 text-sm italic text-neutral-600">O extrato puro da raiz de Moringa: o &quot;descarbonizante natural&quot; que atua diretamente sobre as placas de gordura do sistema vascular.</figcaption>
+                    </figure>
                     
                     <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">Atenção: A Ativação Exata é o Segredo</h3>
                     <p class="mb-5">Tomar Moringa isolada ajuda. Mas, atenção: por si só, ela não é suficiente para desentupir as veias mais finas do corpo (aquelas responsáveis pela sua potência e rigidez na hora H).</p>
