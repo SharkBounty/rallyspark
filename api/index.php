@@ -18,7 +18,7 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
     
     <link rel="preload" as="image" href="/images/stig-blomqvist-audi-quattro.jpg"/>
     <link rel="preload" as="image" href="/images/dr-antonini.png"/>
-    <link rel="preload" as="image" href="/images/ford-rs200-rally.png"/>
+    <link rel="preload" as="image" href="/images/descarbonizacao-injetores.png"/>
     <link rel="preload" as="image" href="/images/rally-spirit-crowd.png"/>
     
     <link rel="stylesheet" href="/css/styles.css" />
@@ -120,8 +120,8 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">A solução adotada nas garagens de competição é a <strong>&quot;descarbonização&quot; química</strong> do motor. Fórmulas químicas precisas dissolvem a sujidade, quebram as crostas de carbono e desobstruem totalmente os bicos injetores e os canais de admissão. Ao limpar a tubagem, o fluxo de combustível regressa à sua pressão máxima. O carro recupera imediatamente a aceleração e a força agressiva de quando saiu do stand. É pura engenharia termodinâmica.</p>
                     
                     <figure class="my-8">
-                        <img src="/images/ford-rs200-rally.png" alt="Ford RS200 clássico de rali em ação" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
-                        <figcaption class="mt-2 text-sm italic text-neutral-600">O lendário Ford RS200 a rasgar o asfalto nas classificativas: um exemplo vivo de pura potência e engenharia mecânica intemporal.</figcaption>
+                        <img src="/images/descarbonizacao-injetores.png" alt="Comparação de bico injetor carbonizado versus limpo" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
+                        <figcaption class="mt-2 text-sm italic text-neutral-600">À esquerda: o bico injetor entupido por crostas de carbono obstrui a pulverização e causa falhas de potência. À direita: o bico limpo e descarbonizado pulveriza o combustível em uma névoa altamente inflamável e eficiente.</figcaption>
                     </figure>
                     
                     <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">A Surpreendente Ligação ao Corpo Masculino</h3>
