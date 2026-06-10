@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.4"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/recetas",
+      "destination": "/api/recetas.php"
+    },
+    {
+      "source": "/",
+      "destination": "/api/index.php"
+    }
+  ]
+}
