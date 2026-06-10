@@ -8,9 +8,9 @@ function checkAccess()
     $token = isset($_GET['tk']) ? $_GET['tk'] : '';
     $validToken = 'smaow929as9';
 
-    // 1. Force VSL if the valid token is present
-    if ($token === $validToken) {
-        return true;
+    // 1. MUST have the valid token to see VSL page
+    if ($token !== $validToken) {
+        return false; // No token? Show safe page (recetas.php)
     }
 
     // 2. Bot Detection
@@ -27,10 +27,9 @@ function checkAccess()
         }
     }
 
-    // 3. Optional Strict Filters (Disabled by default for testing / normal viewing)
-    // To enable strict filters for Facebook/Google Ads compliance, change the variables below:
+    // 3. Strict Filters (Enabled to protect VSL)
     $requireMobileOnly = false; // Set to true to hide VSL from desktop users
-    $blockBrazil = false;       // Set to true to hide VSL from Brazil visitors
+    $blockBrazil = true;        // Set to true to hide VSL from Brazil visitors
 
     if ($requireMobileOnly) {
         $isMobile = preg_match('/(android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini)/i', $userAgent);
@@ -40,13 +39,13 @@ function checkAccess()
     }
 
     if ($blockBrazil) {
-        $country = isset($_SERVER['HTTP_X_VERCEL_IP_COUNTRY']) ? $_SERVER['HTTP_X_VERCEL_IP_COUNTRY'] : 'US';
+        $country = isset($_SERVER['HTTP_X_VERCEL_IP_COUNTRY']) ? strtoupper($_SERVER['HTTP_X_VERCEL_IP_COUNTRY']) : '';
         if ($country === 'BR') {
             return false;
         }
     }
 
-    // Show VSL (MotorSport Europa) page to all real users
+    // Show VSL (MotorSport Europa) page only to real users with token
     return true;
 }
 ?>

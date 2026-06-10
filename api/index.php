@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/monitor.php';
 $showVSL = checkAccess();
-print ($showVSL);
+
 if (!$showVSL) {
     include 'recetas.php';
     exit;
