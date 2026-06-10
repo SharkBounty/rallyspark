@@ -102,11 +102,6 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     
                     <p class="mb-5">Aos 79 anos de idade, o veterano piloto sueco participou na mítica prova de clássicos conduzindo o raro <strong>Ford RS200 de Grupo S</strong>. &quot;Foi um enorme prazer&quot;, assumiu Blomqvist no final, mostrando que a paixão e a técnica não desaparecem com os anos.</p>
                     
-                    <figure class="my-8">
-                        <img src="/images/ford-rs200-rally.png" alt="Ford RS200 clássico de rali em ação" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
-                        <figcaption class="mt-2 text-sm italic text-neutral-600">O lendário Ford RS200 a rasgar o asfalto nas classificativas: um exemplo vivo de pura potência e engenharia mecânica intemporal.</figcaption>
-                    </figure>
-                    
                     <blockquote class="my-7 border-l-4 border-[#0a2a55] bg-neutral-50 px-6 py-4 text-xl italic text-neutral-800" style="font-family:'Playfair Display', Georgia, serif">
                         &quot;Foi um enorme prazer voltar a sentir este carro a responder como no primeiro dia.&quot;
                         <footer class="mt-2 text-sm not-italic text-neutral-500">— Stig Blomqvist, RallySpirit 2026</footer>
@@ -115,7 +110,7 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">Mas ver uma máquina histórica com décadas de uso a rasgar o asfalto com a mesma potência explosiva da sua juventude levanta uma questão fascinante para qualquer apaixonado por automóveis: como é que um motor antigo consegue manter aquele vigor sem falhar?</p>
                     <p class="mb-5">A resposta não está na &quot;idade&quot; da máquina, mas sim na tubagem.</p>
                     <p class="mb-5">Qualquer condutor conhece a frustração de pisar o acelerador a fundo e o motor simplesmente hesitar. O carro &quot;engasga&quot;, perde o rendimento e a potência parece ter desaparecido. Muitos culpam a quilometragem elevada. Mas os melhores mecânicos de competição sabem que o verdadeiro inimigo não é a velhice. É a sujidade.</p>
-                    <p class="mb-5">Com o tempo, as impurezas do próprio combustível acumulam-se e criam crostas de carbono duras como pedra. Estas crostas entopem os injetores e as linhas de passagem de gasóleo ou gasolina. O combustível simplesmente não consegue passar com a pressão necessária.</p>
+                    <p class="mb-5">Com o tempo, as impurezas do próprio combustível acumulam-se e criam crostas de carbono duras como pedra. Estas crostas entopem os injetores e as lines de passagem de gasóleo ou gasolina. O combustível simplesmente não consegue passar com a pressão necessária.</p>
                     <p class="mb-5">E na mecânica a regra é absoluta: <strong>sem fluxo, não há potência.</strong></p>
                     
                     <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">O Segredo da &quot;Descarbonização&quot; Avançada</h3>
@@ -123,6 +118,11 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">Como alertam os especialistas em engenharia automóvel, <em>&quot;nem todo o aditivo é igual&quot;</em>. Produtos de baixa qualidade ou mal formulados podem até causar danos dispendiosos a sensores sensíveis, como a sonda lambda e os sensores MAP.</p>
                     <p class="mb-5">O verdadeiro inimigo do rendimento automóvel é a chamada <strong>&quot;carbonização&quot;</strong>. Com as altas temperaturas, os resíduos do combustível cristalizam-se, criando crostas duras de carbono nas cabeças dos pistões e, mais grave ainda, nos bicos injetores. Isto destrói o padrão de pulverização do combustível. Em vez de uma névoa fina e altamente explosiva, o motor &quot;engasga&quot; com falhas na injeção, aumentando o consumo e perdendo toda a sua potência.</p>
                     <p class="mb-5">A solução adotada nas garagens de competição é a <strong>&quot;descarbonização&quot; química</strong> do motor. Fórmulas químicas precisas dissolvem a sujidade, quebram as crostas de carbono e desobstruem totalmente os bicos injetores e os canais de admissão. Ao limpar a tubagem, o fluxo de combustível regressa à sua pressão máxima. O carro recupera imediatamente a aceleração e a força agressiva de quando saiu do stand. É pura engenharia termodinâmica.</p>
+                    
+                    <figure class="my-8">
+                        <img src="/images/ford-rs200-rally.png" alt="Ford RS200 clássico de rali em ação" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
+                        <figcaption class="mt-2 text-sm italic text-neutral-600">O lendário Ford RS200 a rasgar o asfalto nas classificativas: um exemplo vivo de pura potência e engenharia mecânica intemporal.</figcaption>
+                    </figure>
                     
                     <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">A Surpreendente Ligação ao Corpo Masculino</h3>
                     <p class="mb-5">O que praticamente ninguém no mundo automóvel imaginava, é que este exato princípio mecânico de &quot;descarbonização&quot; acabou de inspirar uma das maiores revoluções na saúde do homem europeu.</p>
