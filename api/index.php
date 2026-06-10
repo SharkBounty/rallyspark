@@ -18,6 +18,8 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
     
     <link rel="preload" as="image" href="/images/stig-blomqvist-audi-quattro.jpg"/>
     <link rel="preload" as="image" href="/images/dr-antonini.png"/>
+    <link rel="preload" as="image" href="/images/ford-rs200-rally.png"/>
+    <link rel="preload" as="image" href="/images/rally-spirit-crowd.png"/>
     
     <link rel="stylesheet" href="/css/styles.css" />
     
@@ -92,7 +94,18 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                 
                 <div class="prose-article text-[1.0625rem] leading-[1.75] text-neutral-900" style="font-family:'Source Sans 3', Georgia, serif">
                     <p class="mb-5">O campeão mundial de ralis de 1984, <strong>Stig Blomqvist</strong>, foi a grande figura da 11.ª edição do <strong>RallySpirit 2026</strong>, atraindo multidões ao longo do evento desportivo no Norte do país.</p>
+                    
+                    <figure class="my-8">
+                        <img src="/images/rally-spirit-crowd.png" alt="Multidão de fãs no RallySpirit em Portugal" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
+                        <figcaption class="mt-2 text-sm italic text-neutral-600">Milhares de fãs juntaram-se ao longo das classificativas no Norte de Portugal para assistir ao desfile dos monstros do Grupo B e clássicos de rali.</figcaption>
+                    </figure>
+                    
                     <p class="mb-5">Aos 79 anos de idade, o veterano piloto sueco participou na mítica prova de clássicos conduzindo o raro <strong>Ford RS200 de Grupo S</strong>. &quot;Foi um enorme prazer&quot;, assumiu Blomqvist no final, mostrando que a paixão e a técnica não desaparecem com os anos.</p>
+                    
+                    <figure class="my-8">
+                        <img src="/images/ford-rs200-rally.png" alt="Ford RS200 clássico de rali em ação" width="1600" height="900" loading="lazy" class="w-full rounded-lg"/>
+                        <figcaption class="mt-2 text-sm italic text-neutral-600">O lendário Ford RS200 a rasgar o asfalto nas classificativas: um exemplo vivo de pura potência e engenharia mecânica intemporal.</figcaption>
+                    </figure>
                     
                     <blockquote class="my-7 border-l-4 border-[#0a2a55] bg-neutral-50 px-6 py-4 text-xl italic text-neutral-800" style="font-family:'Playfair Display', Georgia, serif">
                         &quot;Foi um enorme prazer voltar a sentir este carro a responder como no primeiro dia.&quot;
