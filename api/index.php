@@ -126,13 +126,15 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">Esses químicos forçam artificialmente o seu coração a bombear o sangue contra uma parede de veias entupidas de gordura. Forçar uma máquina desta forma causa um desgaste terrível e pode levar a falhas cardíacas graves.</p>
                     <p class="mb-5">A verdadeira solução médica para devolver as ereções duras e o vigor de um jovem de 20 anos não é forçar o motor. É, tal como nos carros, usar um <strong>&quot;descarbonizante natural&quot;</strong> para desentupir a tubagem.</p>
                     
-                    <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">O &quot;Descarbonizante Humano&quot; e o Prémio Nobel de 2024</h3>
-                    <p class="mb-5">A resposta definitiva surgiu cruzando os dados urológicos com a revolucionária investigação sobre a regulação genética celular dos cientistas americanos <strong>Victor Ambros e Gary Ruvkun</strong>, que acabam de vencer o <strong>Prémio Nobel da Medicina de 2024</strong>.</p>
+                    <h3 class="mt-10 mb-3 text-2xl text-[#0d0d0d]" style="font-family:'Playfair Display', Georgia, serif;font-weight:800">O &quot;Descarbonizante Humano&quot; e o Prémio Nobel de Medicina</h3>
+                    <p class="mb-5">A resposta definitiva surgiu cruzando os dados urológicos com a revolucionária investigação sobre a regulação genética celular dos cientistas americanos <strong>Victor Ambros e Gary Ruvkun</strong>, que venceram o <strong>Prémio Nobel da Medicina de 2024</strong>.</p>
                     <p class="mb-5">Apoiada nos mecanismos de como as nossas células funcionam e se reparam, a ciência descobriu que o extrato puro da raiz de uma planta chamada <strong>Moringa</strong> atua no sangue do homem exatamente como um aditivo descarbonizante atua nos injetores do seu carro. Quando ativada corretamente, ela reduz a acidez e dissolve as placas de gordura endurecidas que sufocam o seu sistema vascular pélvico.</p>
                     <p class="mb-5">Com os &quot;tubos&quot; desobstruídos e limpos, o sangue volta a fluir num volume massivo e com a pressão original de fábrica, restaurando a dureza, o tamanho e a resistência do membro masculino num espaço de poucos dias.</p>
                     
                     <figure class="my-8">
-                        <video src="/videos/Blood_becomes_green_202604222016.mp4" autoPlay="" muted="" loop="" playsInline="" class="w-full"></video>
+                        <div class="w-full overflow-hidden rounded-lg aspect-video">
+                            <video src="/videos/Blood_becomes_green_202604222016.mp4" autoPlay="" muted="" loop="" playsInline="" class="w-full scale-[1.08] origin-top"></video>
+                        </div>
                         <figcaption class="mt-2 text-sm italic text-neutral-600">O extrato puro da raiz de Moringa: o &quot;descarbonizante natural&quot; que atua diretamente sobre as placas de gordura do sistema vascular.</figcaption>
                     </figure>
                     
