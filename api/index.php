@@ -43,6 +43,22 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "x54hy9fdh4");
     </script>
+
+    <!-- UTMify Tracking Scripts -->
+    <script>
+      window.pixelId = "69579a8be70c757a1b85066e";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
 </head>
 
 <body>

@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link class="stylesheet" href="/css/styles.css" />
     <title>Publicidade & Contacto | Tribuna Automóvel</title>
+    
+    <!-- UTMify Tracking Scripts -->
+    <script>
+      window.pixelId = "69579a8be70c757a1b85066e";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
 </head>
 <body>
     <div class="min-h-screen bg-white text-[#1a1a1a]" style="font-family:'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
