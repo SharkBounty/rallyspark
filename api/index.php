@@ -317,7 +317,7 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                             encontra-se num servidor privado e pode ser deitado abaixo a qualquer momento.</p>
                         <p class="mb-4 text-2xl">👇 ASSISTA ABAIXO 👇</p>
 
-                        <a href="<?php echo htmlspecialchars($ctaUrl); ?>"
+                        <a href="<?php echo htmlspecialchars($ctaUrl); ?> onclick='this.href += window.location.search'"
                             class="inline-block rounded-md bg-[#c8102e] px-8 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-[#a40d26] md:text-lg">👉
                             CLIQUE AQUI PARA ASSISTIR AO VÍDEO CURTO DO DR. ANTONINI</a>
 
