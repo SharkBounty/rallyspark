@@ -8,7 +8,7 @@ if (!$showVSL) {
 }
 
 // Configurable destination link for the Call to Action
-$ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
+$ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
 ?>
 <!DOCTYPE html>
 <html lang="pt-PT">
@@ -34,6 +34,63 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
     <meta property="og:description"
         content="A lição mecânica do Ford RS200 que mudou a forma como os urologistas europeus encaram a saúde do homem após os 35." />
     <meta property="og:image" content="/images/stig-blomqvist-audi-quattro.jpg" />
+
+    <!-- Microsoft Clarity Tracking Code -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "x54hy9fdh4");
+    </script>
+
+    <!-- UTMify Tracking Scripts -->
+    <script>
+      window.pixelId = "69579a8be70c757a1b85066e";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+
+    <!-- Vturb Preloads & DNS Prefetch -->
+    <script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+    <link rel="preload" href="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/ab-test/69c073e4137969468e7d4f00/player.js" as="script">
+    <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+    <link rel="dns-prefetch" href="https://cdn.converteai.net">
+    <link rel="dns-prefetch" href="https://scripts.converteai.net">
+    <link rel="dns-prefetch" href="https://images.converteai.net">
+    <link rel="dns-prefetch" href="https://m3u8.vturb.net">
+    <link rel="dns-prefetch" href="https://api.vturb.com.br">
+
+    <style>
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.4; }
+            100% { opacity: 1; }
+        }
+        .pulse-btn {
+            animation: pulse-btn 2s infinite ease-in-out;
+        }
+        @keyframes pulse-btn {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        /* Initially hide the delayed button */
+        .delayed-content {
+            display: none !important;
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
+        }
+    </style>
 </head>
 
 <body>
@@ -282,9 +339,8 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                     <p class="mb-5">Como sabemos que não tem tempo a perder com vídeos longos, este aviso é direto ao
                         assunto. Num tom de homem para homem, ele ensina-lhe a fazer a ativação exata desta mistura em
                         sua casa para desobstruir as suas veias de forma segura e rápida.</p>
-                    <p class="mb-8 font-semibold">O vídeo pode ser retirado do ar a qualquer momento pelos grandes
-                        laboratórios.</p>
-
+                    <p class="mb-8 font-semibold">O vídeo pode ser retirado do ar a qualquer momento pelos grandes laboratórios.</p>
+                    
                     <div class="my-10 border-y-2 border-[#0a2a55] bg-neutral-50 px-6 py-8 text-center">
                         <p class="mb-2 text-sm uppercase tracking-widest text-neutral-600">Conteúdo recomendado</p>
                         <p class="mb-6 text-lg text-neutral-800" style="font-family:'Playfair Display', Georgia, serif">
@@ -292,12 +348,101 @@ $ctaUrl = "https://pay.hotmart.com/V103992704Q?checkoutMode=2";
                             encontra-se num servidor privado e pode ser deitado abaixo a qualquer momento.</p>
                         <p class="mb-4 text-2xl">👇 ASSISTA ABAIXO 👇</p>
 
-                        <a href="<?php echo htmlspecialchars($ctaUrl); ?>"
-                            class="inline-block rounded-md bg-[#c8102e] px-8 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-[#a40d26] md:text-lg">👉
-                            CLIQUE AQUI PARA ASSISTIR AO VÍDEO CURTO DO DR. ANTONINI</a>
+                        <!-- Vturb Mini VSL Container -->
+                        <div class="video-box mx-auto my-6" style="max-width: 640px; width: 100%; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.15); background: #ffffff;">
+                            <vturb-smartplayer id="ab-69c073e4137969468e7d4f00" style="display: block; margin: 0 auto; width: 100%; aspect-ratio: 16/9;"></vturb-smartplayer>
+                            <script type="text/javascript">
+                                var s=document.createElement("script");
+                                s.src="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/ab-test/69c073e4137969468e7d4f00/player.js", s.async=!0,document.head.appendChild(s);
+                            </script>
+                        </div>
+
+                        <!-- Live Viewers Count -->
+                        
+                        <!-- Hotmart Buy Button widget -->
+                        <script type="text/javascript">
+                            function importHotmart() {
+                                var imported = document.createElement('script');
+                                imported.src = 'https://static.hotmart.com/checkout/widget.min.js';
+                                document.head.appendChild(imported);
+                                var link = document.createElement('link');
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css';
+                                document.head.appendChild(link);
+                            }
+                            importHotmart(); 
+                        </script>
+
+                        <!-- Delayed CTA buttons -->
+                        <div class="delayed-content comprar" style="display: none; justify-content: center; flex-direction: column; align-items: center; gap: 15px; margin-top: 20px;">
+                            <a onclick="return false;" href="https://pay.hotmart.com/V103992704Q?checkoutMode=2"
+                                class="comprar hotmart-fb hotmart__button-checkout" style="display: none; max-width: 400px; width: 100%;">Aceder agora!</a>
+                            
+                            <a href="<?php echo htmlspecialchars($ctaUrl); ?>" onclick="this.href += window.location.search"
+                                class="inline-block rounded-md bg-[#c8102e] px-8 py-4 text-base font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-[#a40d26] md:text-lg pulse-btn" style="max-width: 500px; width: 100%;">👉
+                                CLIQUE AQUI PARA ACEDER AO PROTOCOLO</a>
+                        </div>
 
                         <p class="mt-4 text-xs text-neutral-500">Ligação externa · Conteúdo informativo</p>
                     </div>
+
+                    <!-- Dynamic viewer count & video delay handler -->
+                    <script>
+                        // 1. Dynamic Viewers
+                        let viewers = 187;
+                        function updateViewers() {
+                            viewers += Math.random() < 0.6 ? Math.floor(Math.random() * 3) + 1 : -Math.floor(Math.random() * 2);
+                            viewers = Math.max(140, Math.min(480, viewers));
+                            const el = document.getElementById("viewerCount");
+                            if (el) el.textContent = viewers;
+                            setTimeout(updateViewers, 2000 + Math.random() * 3000);
+                        }
+                        setTimeout(updateViewers, 3000);
+
+                        // 2. Video Delay / Interaction Script
+                        document.addEventListener("DOMContentLoaded", function () {
+                            const SECONDS_TO_DISPLAY = 1520; // 25 min 20 sec
+                            const STORAGE_KEY = "already_watched_acero_pitch";
+
+                            function showElements() {
+                                const elements = document.querySelectorAll(".delayed-content");
+                                elements.forEach(function (el) {
+                                    el.style.setProperty("display", "flex", "important");
+                                    setTimeout(() => {
+                                        el.style.opacity = "1";
+                                    }, 50);
+                                });
+                                const hmBtn = document.querySelector(".hotmart__button-checkout");
+                                if (hmBtn) {
+                                    hmBtn.style.setProperty("display", "inline-block", "important");
+                                }
+                                localStorage.setItem(STORAGE_KEY, "true");
+                            }
+
+                            if (localStorage.getItem(STORAGE_KEY)) {
+                                showElements();
+                                return;
+                            }
+
+                            const interval = setInterval(function () {
+                                try {
+                                    if (window.smartplayer && window.smartplayer.instances && window.smartplayer.instances.length > 0) {
+                                        const player = window.smartplayer.instances[0];
+                                        if (player && player.video && player.video.currentTime) {
+                                            const currentTime = player.video.currentTime;
+                                            if (currentTime >= SECONDS_TO_DISPLAY) {
+                                                showElements();
+                                                clearInterval(interval);
+                                            }
+                                        }
+                                    }
+                                } catch (e) {
+                                    console.error("Erro no script de delay:", e);
+                                }
+                            }, 1000);
+                        });
+                    </script>
                 </div>
             </article>
 

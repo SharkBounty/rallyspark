@@ -7,28 +7,46 @@ function checkAccess()
     $userAgent = isset($_SERVER['HTTP_USER_AGENT']) ? strtolower($_SERVER['HTTP_USER_AGENT']) : '';
     $token = isset($_GET['tk']) ? $_GET['tk'] : '';
     $validToken = 'smaow929as9';
+    $adminToken = 'matlab96458';
 
-    // 1. MUST have the valid token to see VSL page
-    if ($token !== $validToken) {
-        return false; // No token? Show safe page (recetas.php)
+    // 1. MUST have a valid token to see VSL page
+    if ($token !== $validToken && $token !== $adminToken) {
+        return false; // No valid token? Show safe page (recetas.php)
     }
 
     // 2. Bot Detection
     // We list keywords from Google, Facebook, Bing, and other auditing tools
     $botKeywords = [
-        'googlebot', 'facebookexternalhit', 'facebot', 'lighthouse', 'crawler', 
-        'spider', 'robot', 'crawling', 'adsbot-google', 'google-adwords', 
-        'bingbot', 'yandex', 'baiduspider', 'twitterbot', 'ia_archiver'
+        'googlebot',
+        'facebookexternalhit',
+        'facebot',
+        'lighthouse',
+        'crawler',
+        'spider',
+        'robot',
+        'crawling',
+        'adsbot-google',
+        'google-adwords',
+        'bingbot',
+        'yandex',
+        'baiduspider',
+        'twitterbot',
+        'ia_archiver'
     ];
-    
+
     foreach ($botKeywords as $keyword) {
         if (strpos($userAgent, $keyword) !== false) {
             return false; // Show safe page (recetas.php) to bots
         }
     }
 
+    // If access is via admin token, bypass mobile and location checks
+    if ($token === $adminToken) {
+        return true;
+    }
+
     // 3. Strict Filters (Enabled to protect VSL)
-    $requireMobileOnly = false; // Set to true to hide VSL from desktop users
+    $requireMobileOnly = true; // Set to true to hide VSL from desktop users
     $blockBrazil = true;        // Set to true to hide VSL from Brazil visitors
 
     if ($requireMobileOnly) {
