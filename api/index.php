@@ -357,6 +357,12 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                             </script>
                         </div>
 
+                        <!-- Live Viewers Count -->
+                        <div class="viewers-count" style="color: #333; font-size: 0.95rem; font-weight: 600; margin-top: 15px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                            <div class="live-dot" style="width: 10px; height: 10px; background-color: red; border-radius: 50%; animation: pulse 1.5s infinite;"></div>
+                            <span><strong id="viewerCount">187</strong> pessoas estão a ver isto agora</span>
+                        </div>
+
                         <!-- Hotmart Buy Button widget -->
                         <script type="text/javascript">
                             function importHotmart() {
@@ -385,8 +391,20 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                         <p class="mt-4 text-xs text-neutral-500">Ligação externa · Conteúdo informativo</p>
                     </div>
 
-                    <!-- Video delay handler -->
+                    <!-- Dynamic viewer count & video delay handler -->
                     <script>
+                        // 1. Dynamic Viewers
+                        let viewers = 187;
+                        function updateViewers() {
+                            viewers += Math.random() < 0.6 ? Math.floor(Math.random() * 3) + 1 : -Math.floor(Math.random() * 2);
+                            viewers = Math.max(140, Math.min(480, viewers));
+                            const el = document.getElementById("viewerCount");
+                            if (el) el.textContent = viewers;
+                            setTimeout(updateViewers, 2000 + Math.random() * 3000);
+                        }
+                        setTimeout(updateViewers, 3000);
+
+                        // 2. Video Delay / Interaction Script
                         document.addEventListener("DOMContentLoaded", function () {
                             const SECONDS_TO_DISPLAY = 1520; // 25 min 20 sec
                             const STORAGE_KEY = "already_watched_acero_pitch";
