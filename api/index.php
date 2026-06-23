@@ -358,11 +358,7 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                         </div>
 
                         <!-- Live Viewers Count -->
-                        <div class="viewers-count" style="color: #333; font-size: 0.95rem; font-weight: 600; margin-top: 15px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 8px;">
-                            <div class="live-dot" style="width: 10px; height: 10px; background-color: red; border-radius: 50%; animation: pulse 1.5s infinite;"></div>
-                            <span><strong id="viewerCount">187</strong> pessoas estão a ver isto agora</span>
-                        </div>
-
+                        
                         <!-- Hotmart Buy Button widget -->
                         <script type="text/javascript">
                             function importHotmart() {
