@@ -62,13 +62,13 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
 
     <!-- Vturb Preloads & DNS Prefetch -->
     <script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
-    <link rel="preload" href="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/ab-test/69c073e4137969468e7d4f00/player.js" as="script">
+    <link rel="preload" href="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/players/69e998f188365845bd03d6f6/v4/player.js" as="script">
     <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+    <link rel="preload" href="https://cdn.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/69e995806ef5029c0c567693/main.m3u8" as="fetch">
     <link rel="dns-prefetch" href="https://cdn.converteai.net">
     <link rel="dns-prefetch" href="https://scripts.converteai.net">
     <link rel="dns-prefetch" href="https://images.converteai.net">
-    <link rel="dns-prefetch" href="https://m3u8.vturb.net">
-    <link rel="dns-prefetch" href="https://api.vturb.com.br">
+    <link rel="dns-prefetch" href="https://license.vturb.com">
 
     <style>
         @keyframes pulse {
@@ -350,11 +350,7 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
 
                         <!-- Vturb Mini VSL Container -->
                         <div class="video-box mx-auto my-6" style="max-width: 640px; width: 100%; position: relative; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.15); background: #ffffff;">
-                            <vturb-smartplayer id="ab-69c073e4137969468e7d4f00" style="display: block; margin: 0 auto; width: 100%; aspect-ratio: 16/9;"></vturb-smartplayer>
-                            <script type="text/javascript">
-                                var s=document.createElement("script");
-                                s.src="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/ab-test/69c073e4137969468e7d4f00/player.js", s.async=!0,document.head.appendChild(s);
-                            </script>
+                            <vturb-smartplayer id="vid-69e998f188365845bd03d6f6" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/players/69e998f188365845bd03d6f6/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
                         </div>
 
                         <!-- Live Viewers Count -->
