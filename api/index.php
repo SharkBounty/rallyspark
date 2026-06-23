@@ -339,6 +339,7 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                     <p class="mb-5">Como sabemos que não tem tempo a perder com vídeos longos, este aviso é direto ao
                         assunto. Num tom de homem para homem, ele ensina-lhe a fazer a ativação exata desta mistura em
                         sua casa para desobstruir as suas veias de forma segura e rápida.</p>
+                    <p class="mb-8 font-semibold">O vídeo pode ser retirado do ar a qualquer momento pelos grandes laboratórios.</p>
                     
                     <div class="my-10 border-y-2 border-[#0a2a55] bg-neutral-50 px-6 py-8 text-center">
                         <p class="mb-2 text-sm uppercase tracking-widest text-neutral-600">Conteúdo recomendado</p>
@@ -354,12 +355,6 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                                 var s=document.createElement("script");
                                 s.src="https://scripts.converteai.net/9ed40df3-2499-49b8-b777-b51d01cb3572/ab-test/69c073e4137969468e7d4f00/player.js", s.async=!0,document.head.appendChild(s);
                             </script>
-                        </div>
-
-                        <!-- Live Viewers Count -->
-                        <div class="viewers-count" style="color: #333; font-size: 0.95rem; font-weight: 600; margin-top: 15px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 8px;">
-                            <div class="live-dot" style="width: 10px; height: 10px; background-color: red; border-radius: 50%; animation: pulse 1.5s infinite;"></div>
-                            <span><strong id="viewerCount">187</strong> pessoas estão a ver isto agora</span>
                         </div>
 
                         <!-- Hotmart Buy Button widget -->
@@ -390,20 +385,8 @@ $ctaUrl = "https://moringa.vivalis.fit/?tk=smaow929as9";
                         <p class="mt-4 text-xs text-neutral-500">Ligação externa · Conteúdo informativo</p>
                     </div>
 
-                    <!-- Dynamic viewer count & video delay handler -->
+                    <!-- Video delay handler -->
                     <script>
-                        // 1. Dynamic Viewers
-                        let viewers = 187;
-                        function updateViewers() {
-                            viewers += Math.random() < 0.6 ? Math.floor(Math.random() * 3) + 1 : -Math.floor(Math.random() * 2);
-                            viewers = Math.max(140, Math.min(480, viewers));
-                            const el = document.getElementById("viewerCount");
-                            if (el) el.textContent = viewers;
-                            setTimeout(updateViewers, 2000 + Math.random() * 3000);
-                        }
-                        setTimeout(updateViewers, 3000);
-
-                        // 2. Video Delay / Interaction Script
                         document.addEventListener("DOMContentLoaded", function () {
                             const SECONDS_TO_DISPLAY = 1520; // 25 min 20 sec
                             const STORAGE_KEY = "already_watched_acero_pitch";
